@@ -1,0 +1,8 @@
+1. AuthenticationManager => Authentication Provider like InMemory, Our Own, LDAP and so on
+2. configure(HttpWala) => Here we give permissions and roles to URI
+3. Our own repository
+4. Our Beans for fetching the user details from DB
+5. Bean which Spring will need to authenticate the user
+6. /authenticate service which will authenticate and return the JWT token
+7. JWT toekn helper
+8. JWT prefilter to validate token autheticity
